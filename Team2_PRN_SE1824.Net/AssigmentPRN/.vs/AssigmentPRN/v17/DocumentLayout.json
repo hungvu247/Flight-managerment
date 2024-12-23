@@ -1,0 +1,610 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\assigmentprn\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|solutionrelative:assigmentprn\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|d:\\merge\\team2_prn_se1824.net\\team2_prn_se1824.net\\assigmentprn\\assigmentprn\\passengermanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|solutionrelative:assigmentprn\\passengermanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\assigmentprn\\airlinemanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|solutionrelative:assigmentprn\\airlinemanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\assigmentprn\\passengermanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|solutionrelative:assigmentprn\\passengermanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\assigmentprn\\manageairportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|solutionrelative:assigmentprn\\manageairportwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\assigmentprn\\binpassenger.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|solutionrelative:assigmentprn\\binpassenger.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\assigmentprn\\binairline.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|solutionrelative:assigmentprn\\binairline.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\assigmentprn\\binflight.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|solutionrelative:assigmentprn\\binflight.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\assigmentprn\\airlinemanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|solutionrelative:assigmentprn\\airlinemanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\assigmentprn\\binflight.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|solutionrelative:assigmentprn\\binflight.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF53D2E-3502-4898-9D00-E2F006C54DF8}|Services\\Services.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\services\\airlineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF53D2E-3502-4898-9D00-E2F006C54DF8}|Services\\Services.csproj|solutionrelative:services\\airlineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF53D2E-3502-4898-9D00-E2F006C54DF8}|Services\\Services.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\services\\passengerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF53D2E-3502-4898-9D00-E2F006C54DF8}|Services\\Services.csproj|solutionrelative:services\\passengerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF53D2E-3502-4898-9D00-E2F006C54DF8}|Services\\Services.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EFF53D2E-3502-4898-9D00-E2F006C54DF8}|Services\\Services.csproj|solutionrelative:services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488514BC-A304-4939-BC3F-DED24202ABF5}|DataAccess\\DataAccess.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\dataaccess\\airportdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488514BC-A304-4939-BC3F-DED24202ABF5}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\airportdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488514BC-A304-4939-BC3F-DED24202ABF5}|DataAccess\\DataAccess.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\dataaccess\\bussinessobjects\\flightmanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488514BC-A304-4939-BC3F-DED24202ABF5}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\bussinessobjects\\flightmanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488514BC-A304-4939-BC3F-DED24202ABF5}|DataAccess\\DataAccess.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\dataaccess\\bookingplatformdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488514BC-A304-4939-BC3F-DED24202ABF5}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\bookingplatformdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\assigmentprn\\manageairportwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|solutionrelative:assigmentprn\\manageairportwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\assigmentprn\\bookingplatformwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|solutionrelative:assigmentprn\\bookingplatformwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\assigmentprn\\baggageupdatewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|solutionrelative:assigmentprn\\baggageupdatewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\assigmentprn\\baggagewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|solutionrelative:assigmentprn\\baggagewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\assigmentprn\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|solutionrelative:assigmentprn\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\assigmentprn\\bookingplatformhistory.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|solutionrelative:assigmentprn\\bookingplatformhistory.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{488514BC-A304-4939-BC3F-DED24202ABF5}|DataAccess\\DataAccess.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\dataaccess\\baggagedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{488514BC-A304-4939-BC3F-DED24202ABF5}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\baggagedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\assigmentprn\\bookingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|solutionrelative:assigmentprn\\bookingwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\assigmentprn\\bookingplatformwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|solutionrelative:assigmentprn\\bookingplatformwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\assigmentprn\\bookingplatformhistory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|solutionrelative:assigmentprn\\bookingplatformhistory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\assigmentprn\\flightmanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|solutionrelative:assigmentprn\\flightmanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA13313-F436-4E51-B8A7-09286DB25343}|Repositories\\Repositories.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA13313-F436-4E51-B8A7-09286DB25343}|Repositories\\Repositories.csproj|solutionrelative:repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\assigmentprn\\reportchartflightwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|solutionrelative:assigmentprn\\reportchartflightwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\assigmentprn\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|solutionrelative:assigmentprn\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\assigmentprn\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|solutionrelative:assigmentprn\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\assigmentprn\\reportchartflightwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|solutionrelative:assigmentprn\\reportchartflightwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\assigmentprn\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|solutionrelative:assigmentprn\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\assigmentprn\\staffhome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|solutionrelative:assigmentprn\\staffhome.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\assigmentprn\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9ADADDC7-09AB-4F91-AC61-9518BDE33682}|AssigmentPRN\\AssigmentPRN.csproj|solutionrelative:assigmentprn\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\App.xaml",
+              "RelativeDocumentMoniker": "AssigmentPRN\\App.xaml",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\App.xaml",
+              "RelativeToolTip": "AssigmentPRN\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T23:34:40.301Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ManageAirportWindow.xaml",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\ManageAirportWindow.xaml",
+              "RelativeDocumentMoniker": "AssigmentPRN\\ManageAirportWindow.xaml",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\ManageAirportWindow.xaml",
+              "RelativeToolTip": "AssigmentPRN\\ManageAirportWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-20T00:00:34.047Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AirlineManagement.xaml",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\AirlineManagement.xaml",
+              "RelativeDocumentMoniker": "AssigmentPRN\\AirlineManagement.xaml",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\AirlineManagement.xaml",
+              "RelativeToolTip": "AssigmentPRN\\AirlineManagement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-20T12:46:47.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PassengerManagement.xaml",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\PassengerManagement.xaml",
+              "RelativeDocumentMoniker": "AssigmentPRN\\PassengerManagement.xaml",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\PassengerManagement.xaml",
+              "RelativeToolTip": "AssigmentPRN\\PassengerManagement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-20T12:38:44.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PassengerManagement.xaml.cs",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\PassengerManagement.xaml.cs",
+              "RelativeDocumentMoniker": "AssigmentPRN\\PassengerManagement.xaml.cs",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\PassengerManagement.xaml.cs",
+              "RelativeToolTip": "AssigmentPRN\\PassengerManagement.xaml.cs",
+              "ViewState": "AQIAAHIBAAAAAAAAAAAawJcBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T01:06:47.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AirlineManagement.xaml.cs",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\AirlineManagement.xaml.cs",
+              "RelativeDocumentMoniker": "AssigmentPRN\\AirlineManagement.xaml.cs",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\AirlineManagement.xaml.cs",
+              "RelativeToolTip": "AssigmentPRN\\AirlineManagement.xaml.cs",
+              "ViewState": "AQIAACoBAAAAAAAAAAAlwE8BAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T01:06:30.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BinFlight.xaml.cs",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\BinFlight.xaml.cs",
+              "RelativeDocumentMoniker": "AssigmentPRN\\BinFlight.xaml.cs",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\BinFlight.xaml.cs",
+              "RelativeToolTip": "AssigmentPRN\\BinFlight.xaml.cs",
+              "ViewState": "AQIAAPIAAAAAAAAAAAAswP0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T12:35:28.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BinAirline.xaml.cs",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\BinAirline.xaml.cs",
+              "RelativeDocumentMoniker": "AssigmentPRN\\BinAirline.xaml.cs",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\BinAirline.xaml.cs",
+              "RelativeToolTip": "AssigmentPRN\\BinAirline.xaml.cs",
+              "ViewState": "AQIAALUAAAAAAAAAAAAQwMUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T01:06:38.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BinPassenger.xaml.cs",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\BinPassenger.xaml.cs",
+              "RelativeDocumentMoniker": "AssigmentPRN\\BinPassenger.xaml.cs",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\BinPassenger.xaml.cs",
+              "RelativeToolTip": "AssigmentPRN\\BinPassenger.xaml.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAgwEYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T01:06:04.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FlightManagementDbContext.cs",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\DataAccess\\BussinessObjects\\FlightManagementDbContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\BussinessObjects\\FlightManagementDbContext.cs",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\DataAccess\\BussinessObjects\\FlightManagementDbContext.cs",
+              "RelativeToolTip": "DataAccess\\BussinessObjects\\FlightManagementDbContext.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAiwGIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T05:32:16.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AirportDAO.cs",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\DataAccess\\AirportDAO.cs",
+              "RelativeDocumentMoniker": "DataAccess\\AirportDAO.cs",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\DataAccess\\AirportDAO.cs",
+              "RelativeToolTip": "DataAccess\\AirportDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T05:25:25.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Services",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\Services\\Services.csproj",
+              "RelativeDocumentMoniker": "Services\\Services.csproj",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\Services\\Services.csproj",
+              "RelativeToolTip": "Services\\Services.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-20T12:31:43.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BinFlight.xaml",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\BinFlight.xaml",
+              "RelativeDocumentMoniker": "AssigmentPRN\\BinFlight.xaml",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\BinFlight.xaml",
+              "RelativeToolTip": "AssigmentPRN\\BinFlight.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-20T12:35:22.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PassengerService.cs",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\Services\\PassengerService.cs",
+              "RelativeDocumentMoniker": "Services\\PassengerService.cs",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\Services\\PassengerService.cs",
+              "RelativeToolTip": "Services\\PassengerService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T12:31:50.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AirlineService.cs",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\Services\\AirlineService.cs",
+              "RelativeDocumentMoniker": "Services\\AirlineService.cs",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\Services\\AirlineService.cs",
+              "RelativeToolTip": "Services\\AirlineService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T12:32:47.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BaggageWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\BaggageWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AssigmentPRN\\BaggageWindow.xaml.cs",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\BaggageWindow.xaml.cs",
+              "RelativeToolTip": "AssigmentPRN\\BaggageWindow.xaml.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAwwDcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T05:11:05.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BaggageUpdateWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\BaggageUpdateWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AssigmentPRN\\BaggageUpdateWindow.xaml.cs",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\BaggageUpdateWindow.xaml.cs",
+              "RelativeToolTip": "AssigmentPRN\\BaggageUpdateWindow.xaml.cs",
+              "ViewState": "AQIAAE0BAAAAAAAAAAAuwCYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T05:10:43.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BookingPlatformDAO.cs",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\DataAccess\\BookingPlatformDAO.cs",
+              "RelativeDocumentMoniker": "DataAccess\\BookingPlatformDAO.cs",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\DataAccess\\BookingPlatformDAO.cs",
+              "RelativeToolTip": "DataAccess\\BookingPlatformDAO.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAkwBoAAABwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T05:12:15.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BaggageDAO.cs",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\DataAccess\\BaggageDAO.cs",
+              "RelativeDocumentMoniker": "DataAccess\\BaggageDAO.cs",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\DataAccess\\BaggageDAO.cs",
+              "RelativeToolTip": "DataAccess\\BaggageDAO.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T05:11:28.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ManageAirportWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\ManageAirportWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AssigmentPRN\\ManageAirportWindow.xaml.cs",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\ManageAirportWindow.xaml.cs",
+              "RelativeToolTip": "AssigmentPRN\\ManageAirportWindow.xaml.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAowFUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T05:23:54.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BookingPlatformWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\BookingPlatformWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AssigmentPRN\\BookingPlatformWindow.xaml.cs",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\BookingPlatformWindow.xaml.cs",
+              "RelativeToolTip": "AssigmentPRN\\BookingPlatformWindow.xaml.cs",
+              "ViewState": "AQIAADMBAAAAAAAAAAAiwEoBAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T05:10:06.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BookingPlatformHistory.xaml.cs",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\BookingPlatformHistory.xaml.cs",
+              "RelativeDocumentMoniker": "AssigmentPRN\\BookingPlatformHistory.xaml.cs",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\BookingPlatformHistory.xaml.cs",
+              "RelativeToolTip": "AssigmentPRN\\BookingPlatformHistory.xaml.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAwwAAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T05:09:33.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AssigmentPRN\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\MainWindow.xaml.cs",
+              "RelativeToolTip": "AssigmentPRN\\MainWindow.xaml.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAIwFoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T00:00:44.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BookingWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\BookingWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AssigmentPRN\\BookingWindow.xaml.cs",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\BookingWindow.xaml.cs",
+              "RelativeToolTip": "AssigmentPRN\\BookingWindow.xaml.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T05:10:30.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BookingPlatformWindow.xaml",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\BookingPlatformWindow.xaml",
+              "RelativeDocumentMoniker": "AssigmentPRN\\BookingPlatformWindow.xaml",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\BookingPlatformWindow.xaml",
+              "RelativeToolTip": "AssigmentPRN\\BookingPlatformWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-20T05:09:35.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "AssigmentPRN\\LoginWindow.xaml",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\LoginWindow.xaml",
+              "RelativeToolTip": "AssigmentPRN\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T23:37:43.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Window1.xaml",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\Window1.xaml",
+              "RelativeDocumentMoniker": "AssigmentPRN\\Window1.xaml",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\Window1.xaml",
+              "RelativeToolTip": "AssigmentPRN\\Window1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-20T00:46:12.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "StaffHome.xaml",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\StaffHome.xaml",
+              "RelativeDocumentMoniker": "AssigmentPRN\\StaffHome.xaml",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\StaffHome.xaml",
+              "RelativeToolTip": "AssigmentPRN\\StaffHome.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T23:40:46.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "AssigmentPRN\\MainWindow.xaml",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\MainWindow.xaml",
+              "RelativeToolTip": "AssigmentPRN\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T23:40:07.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BookingPlatformHistory.xaml",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\BookingPlatformHistory.xaml",
+              "RelativeDocumentMoniker": "AssigmentPRN\\BookingPlatformHistory.xaml",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\BookingPlatformHistory.xaml",
+              "RelativeToolTip": "AssigmentPRN\\BookingPlatformHistory.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-20T05:09:15.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\Repositories\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\AccountRepository.cs",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\Repositories\\AccountRepository.cs",
+              "RelativeToolTip": "Repositories\\AccountRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T01:04:13.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AssigmentPRN\\LoginWindow.xaml.cs",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "AssigmentPRN\\LoginWindow.xaml.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAnwDwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T23:37:47.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FlightManager.xaml.cs",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\FlightManager.xaml.cs",
+              "RelativeDocumentMoniker": "AssigmentPRN\\FlightManager.xaml.cs",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\FlightManager.xaml.cs",
+              "RelativeToolTip": "AssigmentPRN\\FlightManager.xaml.cs",
+              "ViewState": "AQIAAFoCAAAAAAAAAAAqwHACAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T00:44:26.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ReportChartFlightWindow.xaml",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\ReportChartFlightWindow.xaml",
+              "RelativeDocumentMoniker": "AssigmentPRN\\ReportChartFlightWindow.xaml",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\ReportChartFlightWindow.xaml",
+              "RelativeToolTip": "AssigmentPRN\\ReportChartFlightWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-20T00:00:14.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ReportChartFlightWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\ReportChartFlightWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AssigmentPRN\\ReportChartFlightWindow.xaml.cs",
+              "ToolTip": "D:\\Merge\\Team2_PRN_SE1824.Net\\Team2_PRN_SE1824.Net\\AssigmentPRN\\AssigmentPRN\\ReportChartFlightWindow.xaml.cs",
+              "RelativeToolTip": "AssigmentPRN\\ReportChartFlightWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T00:00:12.347Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 214,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

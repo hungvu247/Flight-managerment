@@ -1,0 +1,111 @@
+﻿<Window x:Class="Team2_SE1824_FlightManager.BinBooking"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Team2_SE1824_FlightManager"
+        mc:Ignorable="d"
+        Title="BinBooking" Height="750" Width="1200">
+    <Grid>
+        <DockPanel>
+            <!-- Button Panel -->
+            <StackPanel Orientation="Horizontal" Background="#D23F31" DockPanel.Dock="Top">
+                <DockPanel LastChildFill="True" HorizontalAlignment="Right"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Background="#D23F31" DockPanel.Dock="Top" Height="65">
+                <!-- Add controls for the second row here -->
+                <StackPanel Orientation="Vertical" Margin="10, 0, 0, 0">
+                    <Label Content="Search Passenger" VerticalAlignment="Center" Foreground="White"/>
+                    <TextBox x:Name="txtSearchP" Width="150" Margin="0,0, 0,0" Background="AliceBlue"
+                             HorizontalAlignment="Left" Height="24" TextChanged="txtSearchP_TextChanged"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Margin="10, 0, 0, 0">
+                    <Label Content="Search Flight" VerticalAlignment="Center" Foreground="White"/>
+                    <TextBox x:Name="txtSearchFlight" Width="150" Margin="0,0, 0,0" Background="AliceBlue"
+                             HorizontalAlignment="Left" Height="24" TextChanged="txtSearchFlight_TextChanged"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Margin="10, 0, 0, 0">
+                    <Label Content="Search Booking Platform" VerticalAlignment="Center" Foreground="White"/>
+                    <ComboBox x:Name="cboSearchBP" Width="185" Background="White" Height="24"
+                              SelectionChanged="cboSearchBP_SelectionChanged"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Right">
+                    <Button x:Name="btnResetFilter" Content="Reset Filter" Width="185" Height="46"  
+                            Background="White" Foreground="Red" Margin="40, 10, 0, 0" Click="btnResetFilter_Click"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Right">
+                    <Button x:Name="btnRestoreAll" Content="Restore All" Width="185" Height="46"  
+                            Background="White" Foreground="Red" Margin="40, 10, 0, 0" Click="btnRestoreAll_Click"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Right">
+                    <Button x:Name="btnDeleteAll" Content="Delete All" Width="185" Height="46"  
+                            Background="White" Foreground="Red" Margin="40, 10, 0, 0" Click="btnDeleteAll_Click"/>
+                </StackPanel>
+                <!-- Add more controls as needed -->
+            </StackPanel>
+
+            <Grid Grid.Row="1" Grid.ColumnSpan="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="61*"/>
+                    <ColumnDefinition Width="314*"/>
+                    <ColumnDefinition Width="125*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Input Fields -->
+
+                <StackPanel Margin="5,5,5,5" Grid.Column="2" Grid.ColumnSpan="1">
+                    <Label HorizontalContentAlignment="Center" Content="Booking" FontSize="25" FontWeight="Bold" Foreground="Red"></Label>
+                    <!-- Row 1 -->
+                    <StackPanel Grid.Row="0" Grid.Column="0" Margin="5">
+                        <Label Content="ID" VerticalAlignment="Center"/>
+                        <TextBox IsReadOnly="True" Name="txtID" Width="185" HorizontalAlignment="Left"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="0" Grid.Column="1" Margin="5">
+                        <Label Content="Passenger" VerticalAlignment="Center"/>
+                        <ComboBox IsEnabled="False" x:Name="cboPassenger" Width="185" HorizontalAlignment="Left"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="0" Grid.Column="2" Margin="5">
+                        <Label Content="Flight" VerticalAlignment="Center"/>
+                        <ComboBox IsEnabled="False" x:Name="cboFlight" Width="185" HorizontalAlignment="Left"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="0" Grid.Column="3" Margin="5">
+                        <Label Content="Booking Platform" VerticalAlignment="Center"/>
+                        <ComboBox IsEnabled="False" x:Name="cboBookingPlat" Width="185" HorizontalAlignment="Left"/>
+                    </StackPanel>
+
+                    <!-- Row 2 -->
+                    <StackPanel Grid.Row="1" Grid.Column="0" Margin="5">
+                        <Label Content="Booking Time" VerticalAlignment="Center"/>
+                        <TextBox IsReadOnly="True" Name="txtBookingTime" Width="185" HorizontalAlignment="Left"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="0" Margin="5">
+                        <Button x:Name="btnRestore" HorizontalAlignment="Left" Content="Restore" Width="80" Height="30"  
+                                Background="AntiqueWhite" Foreground="Red" Margin="0, 10, 0, 0" Click="btnRestore_Click"/>
+                        <Button x:Name="btnDelete" HorizontalAlignment="Right" Content="Delete" Width="80" Height="30"  
+                                Background="AntiqueWhite" Foreground="Red" Margin="20, 10, 0, 0" Click="btnDelete_Click"/>
+                        <Button x:Name="btnClear" HorizontalAlignment="Right" Content="Clear" Width="70" Height="30"  
+                                Background="AntiqueWhite" Foreground="Red" Margin="20, 10, 0, 0" Click="btnClear_Click"/>
+                    </StackPanel>
+                </StackPanel>
+
+
+                <!-- DataGrid -->
+                <DataGrid Name="dgData" AutoGenerateColumns="False" Margin="5,5,5,5" SelectionChanged="dgData_SelectionChanged" Grid.Column="0" Grid.ColumnSpan="2">
+                    <DataGrid.Columns>
+                        <DataGridCheckBoxColumn Header="Choose" />
+                        <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="*"/>
+                        <DataGridTextColumn Header="Passenger" Binding="{Binding Passenger.FullName}" Width="3*"/>
+                        <DataGridTextColumn Header="Flight" Binding="{Binding Flight.InforFlight}" Width="3*"/>
+                        <DataGridTextColumn Header="Booking Platform" Binding="{Binding BookingPlatform.Name}" Width="3*"/>
+                        <DataGridTextColumn Header="Booking Time" Binding="{Binding BookingTime}" Width="3*"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+        </DockPanel>
+    </Grid>
+</Window>

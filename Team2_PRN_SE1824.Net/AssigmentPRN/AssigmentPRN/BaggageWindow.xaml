@@ -1,0 +1,98 @@
+﻿<Window x:Class="FlightManagement.BaggageWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FlightManagement"
+        mc:Ignorable="d"
+        Title="BaggageWindow" Height="450" Width="800" 
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+TextElement.FontWeight="Regular"
+TextElement.FontSize="13"
+TextOptions.TextFormattingMode="Ideal"
+TextOptions.TextRenderingMode="Auto"
+Background="{DynamicResource MaterialDesignPaper}"
+FontFamily="{DynamicResource MaterialDesignFont}"
+        >
+    <Grid>
+        <DockPanel>
+            <StackPanel Orientation="Horizontal" Background="#D23F31" DockPanel.Dock="Top">
+                
+                
+                <Button Content="Update baggage" Margin="5" Padding="10,0" Background="Green" Foreground="White" Click="Change_Button_Click"/>
+                <DockPanel LastChildFill="True" HorizontalAlignment="Right">
+
+                    <TextBox Name="txtSearch" VerticalAlignment="Center" Background="White" Width="200" Margin="5" Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                    <Button Content="Search" Margin="5" Padding="10,0" Background="Green" Foreground="White" Click="Search_Click"/>
+                </DockPanel>
+            </StackPanel>
+            <StackPanel Margin="5">
+            <ListView x:Name="lvBookingBaggage"  Width="1100" Margin="5" SelectionChanged="lvBookingBaggage_SelectionChanged" SizeChanged="ListView_SizeChanged">
+                <ListView.View>
+                    <GridView x:Name="gvBookingPlatform">
+                            <GridViewColumn Width="90" Header="FlightCode" DisplayMemberBinding="{Binding Path=FlightCode}"/>
+                            <GridViewColumn Width="Auto" Header="Passenger Name" DisplayMemberBinding="{Binding Path=PassengerName}"/>
+                        <GridViewColumn Width="220" Header="Email" DisplayMemberBinding="{Binding Path=Email}"/>
+                        <GridViewColumn Width="90" Header="Date of birth" DisplayMemberBinding="{Binding Path=Dob}"/>
+                        <GridViewColumn Width="90" Header="Platform" DisplayMemberBinding="{Binding Path=PlatformName}"/>
+                        <GridViewColumn Width="250" Header="Departing airport" DisplayMemberBinding="{Binding Path=DepartingAirport}"/> 
+                        <GridViewColumn Width="250" Header="Arriving airport" DisplayMemberBinding="{Binding Path=ArrivingAirport}"/>
+                            <GridViewColumn Width="150" Header="Departing time" DisplayMemberBinding="{Binding Path=DepartingTime}"/>
+                            <GridViewColumn Width="150" Header="Arriving time" DisplayMemberBinding="{Binding Path=ArrivingTime}"/>
+                        
+                    </GridView>
+                </ListView.View>
+                
+            </ListView>
+                <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Stretch" Margin="5">
+                    <Button Width="Auto" HorizontalAlignment="Stretch" Content="&lt;&lt;" Margin="5" Click="PreviousPage_Click"/>
+                    <Button Width="Auto" HorizontalAlignment="Stretch" Content="&gt;&gt;" Margin="5" Click="NextPage_Click"/>
+                </StackPanel>
+            </StackPanel>
+            <!-- Vùng hiển thị thông tin các sân bay đã chọn -->
+            <Border BorderBrush="Gray" BorderThickness="1" Margin="5">
+                <StackPanel Margin="5">
+
+                    <Label x:Name="lblAM" Content="Manage baggage" Grid.Column="3" Grid.Row="0" FontSize="32" HorizontalAlignment="Left"
+Width="466" Margin="37,0,0,0"/>
+                    <Label Content="Flight Code" Margin="2,2,2,2" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="txtFlightID" IsEnabled="False" Margin="4,4,4,4" Grid.Row="1" Grid.Column="2" Text="" TextWrapping="Wrap" Grid.ColumnSpan="2" />
+                    <Label Content="Passenger name" Margin="2,2,2,2" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="txtPassengerName" IsEnabled="False" Margin="4,4,4,4" Grid.Row="2" Grid.Column="2" Text="" TextWrapping="Wrap" Grid.ColumnSpan="2"/>
+                    <Label Content="Booking platform name" Margin="2,2,2,2" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="txtBookingPlatform" IsEnabled="False" Margin="4,4,4,4" Grid.Row="2" Grid.Column="2" Text="" TextWrapping="Wrap" Grid.ColumnSpan="2"/>
+                    <Label Content="Departing airport" Margin="2,2,2,2" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="txtDepartingAirport" IsEnabled="False" Margin="4,4,4,4" Grid.Row="2" Grid.Column="2" Text="" TextWrapping="Wrap" Grid.ColumnSpan="2"/>
+                    <Label Content="Arriving airport" Margin="2,2,2,2" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="txtArrivingAirport" IsEnabled="False" Margin="4,4,4,4" Grid.Row="2" Grid.Column="2" Text="" TextWrapping="Wrap" Grid.ColumnSpan="2"/>
+                    <Label Content="Departing time" Margin="2,2,2,2" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="txtDepartingTime" IsEnabled="False" Margin="4,4,4,4" Grid.Row="2" Grid.Column="2" Text="" TextWrapping="Wrap" Grid.ColumnSpan="2"/>
+                    <Label Content="Arriving time" Margin="2,2,2,2" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="txtArrivingTime" IsEnabled="False" Margin="4,4,4,4" Grid.Row="2" Grid.Column="2" Text="" TextWrapping="Wrap" Grid.ColumnSpan="2"/>
+                    <Label Content="Weight (kg)" Margin="2,2,2,2" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="txtWeight" Margin="4,4,4,4" Grid.Row="3" Grid.Column="2" Text="" TextWrapping="Wrap" Grid.ColumnSpan="2" />
+                    
+                    
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="40,0,0,0">
+                        <Button Content="Add baggage" Margin="5" Padding="10,0" Background="Green" Width="150" Height="30" Foreground="White" Click="Add_Button_Click"/>
+                        <Button x:Name="btnRefresh" Content="Làm mới" Margin="5" Padding="10,0" Background="Green" Foreground="White" Height="30" Width="150" Click="Refresh_Button_Click"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal"  Margin="0,20,5,0">
+                        <Label Content="Booking platform name" Margin="2,2,2,2" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2"/>
+                        <ComboBox SelectionChanged="cbBookingPlatform" Name="cbBoxBookingPlatform"  Width="160" Height="30"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                        <Label Content="Airport" Margin="2,2,2,2" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2"/>
+                        <ComboBox SelectionChanged="cbDepartAirport" Name="cbBoxDepartAirport" Margin="2,2,2,2" Width="150" Height="30"/>
+                        <ComboBox SelectionChanged="cbArriveAirport" Name="cbBoxArriveAirport"  Width="150" Height="30"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
+                        <TextBox x:Name="txtBookingId" Visibility="Hidden" Margin="4,4,4,4" Grid.Row="3" Grid.Column="2" Text="" TextWrapping="Wrap" Grid.ColumnSpan="2" />
+                        <TextBox x:Name="txtEmail" Visibility="Hidden" Margin="4,4,4,4" Grid.Row="3" Grid.Column="2" Text="" TextWrapping="Wrap" Grid.ColumnSpan="2" />
+                    </StackPanel>
+                    
+                </StackPanel>
+            </Border>
+        </DockPanel>
+    </Grid>
+</Window>

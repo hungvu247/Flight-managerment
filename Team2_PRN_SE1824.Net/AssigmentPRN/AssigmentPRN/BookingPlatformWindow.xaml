@@ -1,0 +1,67 @@
+﻿<Window x:Class="Team2_SE1824_FlightManager.BookingPlatformWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Team2_SE1824_FlightManager"
+        mc:Ignorable="d"
+        Title="BookingPlatformWindow" Height="450" Width="800"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+     TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+     TextElement.FontWeight="Regular"
+     TextElement.FontSize="13"
+     TextOptions.TextFormattingMode="Ideal"
+     TextOptions.TextRenderingMode="Auto"
+     Background="{DynamicResource MaterialDesignPaper}"
+     FontFamily="{DynamicResource MaterialDesignFont}"
+        >
+    <Grid>
+        <DockPanel>
+            <StackPanel Orientation="Horizontal" Background="#D23F31" DockPanel.Dock="Top">
+                <Button Content="Add Platform" Margin="5" Padding="10,0" Background="Green" Foreground="White" Click="Add_Button_Click"/>
+                <Button Content="Delete Platform" Margin="5" Padding="10,0" Background="Green" Foreground="White" Click="Delete_Button_Click"/>
+                <Button Content="Edit Platform" Margin="5" Padding="10,0" Background="Green" Foreground="White" Click="Edit_Button_Click"/>
+                <DockPanel LastChildFill="True" HorizontalAlignment="Right">
+                    <TextBox Name="txtSearch" VerticalAlignment="Center" Background="White" Width="200" Margin="5" Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                    <Button Content="Search" Margin="5" Padding="10,0" Background="Green" Foreground="White" Click="Search_Click"/>
+                    <Button Content="Restore" Margin="5" Padding="10,0" Background="Green" Foreground="White" Click="Active_Booking_Platform_Button_Click"/>
+                    <Button Background="Green"  Content="Export Excel" Margin="5" Padding="10,0" Foreground="White" Click="btn_ExcelClick" IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"  Style="{StaticResource MaterialDesignRaisedButton}" ToolTip="Resource name: MaterialDesignRaisedButton" />
+                </DockPanel>
+            </StackPanel>
+            <StackPanel>
+                <ListView x:Name="lvBookingPlatform" Width="450" Margin="5" SelectionChanged="lvBookingPlatform_SelectionChanged" SizeChanged="ListView_SizeChanged">
+                    <ListView.View>
+                        <GridView x:Name="gvBookingPlatform">
+                            <GridViewColumn Width="150" Header="Platform name" DisplayMemberBinding="{Binding Path=Name}"/>
+                            <GridViewColumn Width="300" Header="Url" DisplayMemberBinding="{Binding Path=Url}"/>
+                        </GridView>
+
+                    </ListView.View>
+                    
+                </ListView>
+                <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Stretch" Margin="5">
+                    <Button Width="Auto" HorizontalAlignment="Stretch" Content="&lt;&lt;" Margin="5" Click="PreviousPage_Click"/>
+                    <Button Width="Auto" HorizontalAlignment="Stretch" Content="&gt;&gt;" Margin="5" Click="NextPage_Click"/>
+                </StackPanel>
+            </StackPanel>
+            
+
+            <!-- Vùng hiển thị thông tin các sân bay đã chọn -->
+            <Border BorderBrush="Gray" BorderThickness="1" Margin="5">
+                <StackPanel Margin="5">
+
+                    <Label x:Name="lblAM" Content="Manage Booking Platform" Grid.Column="3" Grid.Row="0" FontSize="32" HorizontalAlignment="Left"
+       Width="466" Margin="37,0,0,0"/>
+                    <Label Content="Booking platform code" Margin="2,2,2,2" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="txtBookingPlatformID" IsEnabled="False" Margin="4,4,4,4" Grid.Row="1" Grid.Column="2" Text="" TextWrapping="Wrap" Grid.ColumnSpan="2" />
+                    <Label Content="Booking platform name" Margin="2,2,2,2" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="txtBookingPlatformName" Margin="4,4,4,4" Grid.Row="2" Grid.Column="2" Text="" TextWrapping="Wrap" Grid.ColumnSpan="2"/>
+                    <Label Content="Url" Margin="2,2,2,2" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="txtBookingPlatformURL" Margin="4,4,4,4" Grid.Row="3" Grid.Column="2" Text="" TextWrapping="Wrap" Grid.ColumnSpan="2" />
+                    <Button x:Name="btnRefresh" Content="Refresh" Margin="5" Padding="10,0" Background="Green" Foreground="White" Width="150" Click="Refresh_Button_Click"/>
+                </StackPanel>
+            </Border>
+        </DockPanel>
+
+    </Grid>
+</Window>
